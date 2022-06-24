@@ -3,7 +3,7 @@ package TreeConstruction;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class BinaryTreeContructionAndTraversal {
+public class BuildBinaryTreeAndTraversal {
 
     static class Node {
         int data;
@@ -90,7 +90,7 @@ public class BinaryTreeContructionAndTraversal {
 
     public static void main(String[] args) {
         int nodes[] = { 1, 2, 4, -1, -1, 5, -1, -1, 3, -1, 6, -1, -1 };
-        BinaryTree tree = new BinaryTree();
+        BuildBinaryTreeAndTraversal tree = new BuildBinaryTreeAndTraversal();
         Node root = tree.buildTree(nodes);
         // System.out.println(root.data);
         System.out.println("Pre order traversal");
