@@ -3,7 +3,7 @@ package TreeConstruction;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class BinaryTree {
+public class BinaryTreeContructionAndTraversal {
 
     static class Node {
         int data;
